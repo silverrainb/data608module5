@@ -1,0 +1,16 @@
+{
+  "name": "module5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d RKoh_Assign5"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://silverrainb.github.io/data608module5"
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}

@@ -11,6 +11,7 @@
   "license": "ISC",
   "homepage": "https://silverrainb.github.io/data608module5",
   "dependencies": {
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^2.0.1",
+    "d3": "3"
   }
 }

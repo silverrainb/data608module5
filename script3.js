@@ -1,4 +1,3 @@
-var d3 = require("d3");
 var _rows = []
 var _tableHeight = 0
 var _names;

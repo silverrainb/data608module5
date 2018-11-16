@@ -1,3 +1,4 @@
+var d3 = require("d3");
 var _rows = []
 var _tableHeight = 0
 var _names;
@@ -23,9 +24,13 @@ function loadData() {
                 .enter().append("tr");
 
             var td = tr.selectAll("td")
-                .data(function (d) { return [d.Name, d.Height, d.Weight]; })
+                .data(function (d) {
+                    return [d.Name, d.Height, d.Weight];
+                })
                 .enter().append("td")
-                .text(function (d) { return d; });
+                .text(function (d) {
+                    return d;
+                });
         });
 
     d3.select("#presidentSearch").on("keyup", searchPresidents);

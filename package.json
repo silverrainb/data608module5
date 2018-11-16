@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage": "https://silverrainb.github.io/data608module5"
+  "homepage": "https://silverrainb.github.io/data608module5",
   "dependencies": {
     "gh-pages": "^2.0.1"
   }
